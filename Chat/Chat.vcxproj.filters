@@ -15,8 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Users.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Chat.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrieNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Users.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Trienode.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
