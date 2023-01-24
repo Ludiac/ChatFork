@@ -59,7 +59,7 @@ bool signUp()
 	std::cout << '\n';
 
 	std::cout << "Check your entries.\nYour login: " << user.getLogin()
-		<< "\nYour password: " << user.getPassword()
+		<< "\nYour password: is hidden" // << user.getPassword()
 		<< "\nYour name: " << user.getUserName()
 		<< "\nare those correct? Enter 'y' to proceed, any other button to abort: ";
 	std::string input;

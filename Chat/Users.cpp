@@ -41,6 +41,7 @@ bool Users::uniqueLogin(std::string const& login) // check login for uniqueness
 		if (i.getLogin() == login)
 			return false;
 	}
+
 	return true;
 }
 
@@ -57,5 +58,6 @@ bool Users::loginAndPasswordMatch(User const& _user) // check is login matching 
 		if (i.getLogin() == _user.getLogin() && i.getPassword() == _user.getPassword())
 			return true;
 	}
+
 	return false;
 }

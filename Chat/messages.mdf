@@ -23,3 +23,7 @@ test	_all	skillfactory
 test	test	zebra
 test	test	skill
 test	test	skillfactory
+testhash	_all	hey there
+testhash	_all	skillfactory is great
+testhash	_all	
+testhash	_all	q

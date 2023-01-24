@@ -138,6 +138,7 @@
     <ClCompile Include="Chat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Message.cpp" />
+    <ClCompile Include="SHA256.cpp" />
     <ClCompile Include="TrieNode.cpp" />
     <ClCompile Include="UI.cpp" />
     <ClCompile Include="User.cpp" />
@@ -146,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="Chat.h" />
     <ClInclude Include="Message.h" />
+    <ClInclude Include="SHA256.h" />
     <ClInclude Include="Trienode.h" />
     <ClInclude Include="UI.h" />
     <ClInclude Include="User.h" />

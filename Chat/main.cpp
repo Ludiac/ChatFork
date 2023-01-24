@@ -1,4 +1,4 @@
-//#include "vld.h"
+#include "vld.h"
 #include "User.h"
 #include "Users.h"
 #include "Message.h"
