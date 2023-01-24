@@ -11,7 +11,7 @@ struct TrieNode
 	~TrieNode();
 };
 
-TrieNode* getNewNode(void);
+TrieNode* getNewNode();
 void insert(TrieNode*, const std::string&);
 void printAutoSuggestions(TrieNode*, const std::string&, std::string*);
 void autocomplete(TrieNode* root, std::string, const std::string&, std::string*);
