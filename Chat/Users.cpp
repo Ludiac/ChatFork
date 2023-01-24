@@ -48,7 +48,7 @@ bool Users::uniqueLogin(std::string const& login) // check login for uniqueness
 void Users::printUsers() // just prints all user names and logins
 {
 	for (auto i : users)
-		std::cout << "User: " << i.getLogin() << ", Name: " << i.getUserName() << '\n';
+		std::cout << "User: " << i.getLogin() << ",\t\t Name: " << i.getUserName() << '\n';
 }
 
 bool Users::loginAndPasswordMatch(User const& _user) // check is login matching the password
