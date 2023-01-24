@@ -1,7 +1,7 @@
 #include <iostream>
 #include "TrieNode.h"
 
-TrieNode* getNewNode(void)
+TrieNode* getNewNode()
 {
 	TrieNode* pNode = new TrieNode;
 	pNode->isEndOfWord = false;
