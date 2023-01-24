@@ -112,33 +112,25 @@ void messageMenu(bool openChat, bool openSession, std::string const& current_use
 		Chat tempChat = { current_user, inputRecipient };
 		tempChat.printChat();
 		std::cout << '\n' << "Type your message here: \n";
-		//std::string inputMessage;
-		//std::cin.ignore();
-		//std::getline(std::cin, inputMessage, '\n');
 
 		std::string inputMessage;
 
-		for (;;)
+		for (;;) // necessary for autocomplete
 		{
 			int keycode = _getch(); //gets the code
 
 			if (keycode != 13 && keycode != 9)
 			{
 				std::cout << static_cast<char>(keycode);
-				//std::cout << (keycode);
 				inputMessage += keycode;
 			}
 			else if (keycode == 9)
 			{
 				std::string prefix;
 				for (int i = inputMessage.size() - 1; i >= 0 && !std::isspace(inputMessage[i]); --i)
-					//for (int i = inputMessage.size() - 1; i >= 0; --i)
-				{
-					//	if (std::isspace(inputMessage[i])) break;
 					prefix += inputMessage[i];
-				}
-				std::reverse(prefix.begin(), prefix.end());
 
+				std::reverse(prefix.begin(), prefix.end());
 				printAutoSuggestions(dictionary, prefix, &inputMessage);
 			}
 			else break;

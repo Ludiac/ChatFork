@@ -1,9 +1,9 @@
 #include <iostream>
 #include "TrieNode.h"
 
-TrieNode* getNewNode(void)
+TrieNode* getNewNode()
 {
-	struct TrieNode* pNode = new TrieNode;
+	TrieNode* pNode = new TrieNode;
 	pNode->isEndOfWord = false;
 	pNode->freq = 1;
 

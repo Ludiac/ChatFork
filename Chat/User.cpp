@@ -40,6 +40,3 @@ std::string User::getUserName() const noexcept { return userName; }
 void User::setLogin(std::string const& _login) { login = _login; }
 void User::setPassword(std::string const& _password) { password = hashPassword(_password); }
 void User::setUserName(std::string const& _userName) { userName = _userName; }
-
-
-
