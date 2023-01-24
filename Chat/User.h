@@ -12,8 +12,6 @@ public:
 	User(std::string const&, std::string const&);
 	User() {}
 
-	friend bool operator==(const User&, const User&);
-
 	bool loginValid();
 	bool passwordValid(std::string const&);
 
@@ -25,3 +23,5 @@ public:
 	void setPassword(std::string const&);
 	void setUserName(std::string const&);
 };
+
+bool operator==(const User&, const User&);
