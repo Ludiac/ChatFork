@@ -17,7 +17,6 @@ bool User::loginValid()
 
 bool User::passwordValid(std::string const& _password)
 {
-
 	if (_password.empty() || _password.find('\t') != std::string::npos) return false; // '\t' is used as delimiter in database
 
 	return true;
